@@ -30,3 +30,28 @@
   font-size: 14px;
   opacity: 0.7;
 }
+.case-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+  max-width: 900px;
+}
+
+.case-card {
+  background: #121a2a;
+  border: 1px solid rgba(255,255,255,0.08);
+  padding: 25px;
+  border-radius: 12px;
+}
+
+.case-card h2 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+.label {
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  opacity: 0.9;
+}
